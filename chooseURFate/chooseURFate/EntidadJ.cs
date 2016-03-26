@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace chooseURFate
 {
@@ -18,6 +14,39 @@ namespace chooseURFate
         int nMinaOro;
         int nMinaPiedra;
 
+        void GenerarAlimento()
+        {
 
+        }
+
+        void GenerarMadera()
+        {
+
+        }
+
+        void GenerarOro()
+        {
+
+        }
+
+        void GenerarPiedra()
+        {
+
+        }
+
+        void CrearVivienda()
+        {
+
+        }
+
+        void CrearCuartel()
+        {
+
+        }
+
+        void CrearCiudadano()
+        {
+
+        }
     }
 }
