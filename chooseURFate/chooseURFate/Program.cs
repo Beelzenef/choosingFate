@@ -8,6 +8,8 @@ namespace chooseURFate
 {
     static class Program
     {
+        public static bool loginCorrecto = false;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +18,16 @@ namespace chooseURFate
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            
+            Application.Run(new formLogin());
+            if (loginCorrecto)
+            {
+                Application.Run(new Form1());
+            }
+            else
+            {
+                MessageBox.Show("Login incorrecto");
+            }
         }
     }
 }
